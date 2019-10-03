@@ -106,10 +106,7 @@ class ApiController extends FOSRestController
     public function createHotel(Request $request)
     {
 
-      /*$article = new Article();
-      $article->setTitle($request->get('title'));
-      $article->setContent($request->get('content'));
-      $this->articleRepository->save($article);*/
+      //...
 
       return View::create($article, Response::HTTP_CREATED);
 
@@ -122,10 +119,7 @@ class ApiController extends FOSRestController
     public function updateHotel(Request $request)
     {
 
-      /*$article = new Article();
-      $article->setTitle($request->get('title'));
-      $article->setContent($request->get('content'));
-      $this->articleRepository->save($article);*/
+      //...
 
       return View::create($article, Response::HTTP_CREATED);
 
@@ -138,10 +132,7 @@ class ApiController extends FOSRestController
     public function deleteHotel(Request $request)
     {
 
-      /*$article = new Article();
-      $article->setTitle($request->get('title'));
-      $article->setContent($request->get('content'));
-      $this->articleRepository->save($article);*/
+      //...
 
       return View::create($article, Response::HTTP_CREATED);
 
