@@ -1,0 +1,31 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %} - Búsqueda{% endblock %}
+
+{% block body %}
+
+
+<div class="container">
+  <div class="row">
+    <div class="col header">
+      Cheil Hoteles
+    </div>
+  </div>
+
+  <div class="row" style="">
+    <div class="col-md-3">
+      {% embed "menu.html.twig" %}{% endembed %}
+    </div>
+    <div class="col-md-9">
+      {% embed "results.html.twig" %}{% endembed %}
+    </div>
+  </div>
+
+</div>
+
+<div id="hotel_tmpl" style="display:none">
+  {% embed "hotel_tmpl.html.twig" %}{% endembed %}
+</div>
+
+{% endblock %}

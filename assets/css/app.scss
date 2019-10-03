@@ -1,0 +1,64 @@
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+$enable-shadows: true;
+
+html,body{
+  height:calc(100vh);
+  background-color: #333;
+}
+
+.container {
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.header{
+  border-bottom: solid 1px #ccc;
+  background-color: #340467;
+
+  font-size: 40px;
+  color: white;
+}
+
+.filter{
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hotel{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #4e4e4e;
+}
+
+.hotel div.name{
+  font-size: 20px;
+  color: #00099e;
+  padding: 5px;
+}
+
+.hotel div.stars{
+  padding-right: 20px;
+  color: #CCC;
+}
+
+.hotel div.data{
+  padding: 0px;
+}
+
+.hotel div.image img{
+  padding: 5px;
+}
+
+.hotel div.image img{
+  width: 100%;
+  height: 100px;
+}
+
+.hotel div.price button{
+  font-size: 20px;
+}

@@ -1,0 +1,29 @@
+<div id="hotel_${id}" class="hotel col-lg-6 col-12">
+  <div class="border shadow-sm">
+    <div class="row">
+      <div class="col-sm-8 col-12">
+        <div class="name font-weight-bold">${name}</div>
+      </div>
+      <div class="stars col-sm-4 col-12 text-right">
+        <span class="star_1">&#9733;</span><span class="star_2">&#9733;</span><span class="star_3">&#9733;</span><span class="star_4">&#9733;</span><span class="star_5">&#9733;</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-6">
+        <div class="image">
+          <img src="/img/hotel_${id}.png" class="rounded" />
+        </div>
+      </div>
+      <div class='data col-sm-8 col-6'>
+        <span class="font-weight-bold">País:</span> ${country} <br/>
+        <span class="font-weight-bold">Ciudad:</span> ${city} <br/>
+        <span class="font-weight-bold">Dirección:</span> ${address} <br/>
+        <span class="font-weight-bold">Teléfono:</span> ${phone} <br/>
+      </div>
+    </div>
+    <div class="price">
+      <button type="button" class="btn btn-primary btn-block">$${price}</button>
+    </div>
+  </div>
+
+</div>
